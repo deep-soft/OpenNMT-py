@@ -1,8 +1,10 @@
 name: Deploy Docs & Publish to PyPi
 
 on:
-  release:
-    types: [published]
+  workflow_dispatch:
+#on:
+#  release:
+#    types: [published]
 
 jobs:
   deploy-docs:
